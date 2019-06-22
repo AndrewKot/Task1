@@ -1,0 +1,14 @@
+C:\Users\Kot\Dropbox\Task1_3\Task1_3\obj\Debug\Task1_3.csprojAssemblyReference.cache
+C:\Users\Kot\Dropbox\Task1_3\Task1_3\obj\Debug\Task1_3.csproj.CoreCompileInputs.cache
+C:\Users\Kot\Dropbox\Task1_3\Task1_3\bin\Debug\Task1_3.exe.config
+C:\Users\Kot\Dropbox\Task1_3\Task1_3\bin\Debug\Task1_3.exe
+C:\Users\Kot\Dropbox\Task1_3\Task1_3\bin\Debug\Task1_3.pdb
+C:\Users\Kot\Dropbox\Task1_3\Task1_3\obj\Debug\Task1_3.exe
+C:\Users\Kot\Dropbox\Task1_3\Task1_3\obj\Debug\Task1_3.pdb
+C:\Users\Samsung\Dropbox\Task1_3\Task1_3\bin\Debug\Task1_3.exe.config
+C:\Users\Samsung\Dropbox\Task1_3\Task1_3\bin\Debug\Task1_3.exe
+C:\Users\Samsung\Dropbox\Task1_3\Task1_3\bin\Debug\Task1_3.pdb
+C:\Users\Samsung\Dropbox\Task1_3\Task1_3\obj\Debug\Task1_3.csprojAssemblyReference.cache
+C:\Users\Samsung\Dropbox\Task1_3\Task1_3\obj\Debug\Task1_3.csproj.CoreCompileInputs.cache
+C:\Users\Samsung\Dropbox\Task1_3\Task1_3\obj\Debug\Task1_3.exe
+C:\Users\Samsung\Dropbox\Task1_3\Task1_3\obj\Debug\Task1_3.pdb
