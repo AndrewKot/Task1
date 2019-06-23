@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Logic;
+using MergeSortArray;
 
 namespace Task1_3
 {
     class Program
     {
+        public static List<ConsoleKey> numbers;
+
         static void Main(string[] args)
         {
             //Entrance to User Interface
+            InstalConsoleKey();
             MainMenu();
         }
 
@@ -75,19 +78,7 @@ namespace Task1_3
                 "4. 'Backspace' - delete carrent value.\n"
 
             };
-            List<ConsoleKey> numbers = new List<ConsoleKey>
-            {
-                ConsoleKey.D1,
-                ConsoleKey.D2,
-                ConsoleKey.D3,
-                ConsoleKey.D4,
-                ConsoleKey.D5,
-                ConsoleKey.D6,
-                ConsoleKey.D7,
-                ConsoleKey.D8,
-                ConsoleKey.D9,
-                ConsoleKey.D0
-            }; 
+
             ConsoleKeyInfo keyInfo;
             string num = "";
             
@@ -165,19 +156,6 @@ namespace Task1_3
                 "2. 'N' - read minimum value of the array;\n3. 'M' - read maximum value of the array;\n" +
                 "4. 'D' - delete the array;\n5. 'Enter' - read size of the array (1 - 1000).\n"
                 
-            };
-            List<ConsoleKey> numbers = new List<ConsoleKey>
-            {
-                ConsoleKey.D1,
-                ConsoleKey.D2,
-                ConsoleKey.D3,
-                ConsoleKey.D4,
-                ConsoleKey.D5,
-                ConsoleKey.D6,
-                ConsoleKey.D7,
-                ConsoleKey.D8,
-                ConsoleKey.D9,
-                ConsoleKey.D0
             };
             ConsoleKeyInfo keyInfo;
             string num = "";
@@ -316,10 +294,10 @@ namespace Task1_3
                 if (keyInfo.Key == ConsoleKey.Enter)
                 {
                     num = "";
-                    MergeSort(array);
-                    for (int i = 0; i < MergeSort(array).Count; i++)
+                    LogicInterface.MergeSort(array);
+                    for (int i = 0; i < LogicInterface.MergeSort(array).Count; i++)
                     {
-                        num += Convert.ToString(MergeSort(array)[i]);
+                        num += Convert.ToString(LogicInterface.MergeSort(array)[i]);
                         num += " ";
                     }
                 }
@@ -337,6 +315,24 @@ namespace Task1_3
                 Console.WriteLine(menuOption[i]);
             }
             
-        } 
+        }
+
+        public static void InstalConsoleKey()
+        {
+            numbers = new List<ConsoleKey>
+            {
+                ConsoleKey.D1,
+                ConsoleKey.D2,
+                ConsoleKey.D3,
+                ConsoleKey.D4,
+                ConsoleKey.D5,
+                ConsoleKey.D6,
+                ConsoleKey.D7,
+                ConsoleKey.D8,
+                ConsoleKey.D9,
+                ConsoleKey.D0
+            };
+        }
+        
     }
 }
